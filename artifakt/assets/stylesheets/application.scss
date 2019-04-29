@@ -152,7 +152,7 @@ h3 {
 }
 
 .widget.status-warning {
-  background-color: $background-warning-color-1;
+  background-color: #da4ed6;
   @include animation(status-warning-background, 2s, ease, infinite);
 
   .icon-warning-sign {
