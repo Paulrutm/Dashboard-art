@@ -1,0 +1,54 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  #607d8b;
+
+$rounded-width:     1em;
+$rounded-height:    1em;
+$rect-width:        1.72em;
+$rect-height:       1em;
+
+// ----------------------------------------------------------------------------
+// Widget-ratp styles
+// ----------------------------------------------------------------------------
+.widget-ratp {
+	background-color: $background-color;
+
+	.bus, .noctilien {
+		width: $rect-width;
+		height: $rect-height;
+	}
+	.metro, .tram, .rer {
+		width: $rounded-width;
+		height: $rounded-height;
+	}
+
+	table {
+		border-collapse: separate;
+		border-spacing: 4px 0px;
+	}
+
+	td {
+		border-bottom: 1px dotted #CCC;
+		text-align: left;
+		white-space: nowrap;
+		max-width: 0;
+		overflow: hidden;
+	}
+
+	.transport {
+		width: 12%;
+		text-align: center;
+	}
+	.dest {
+		width: 62%;
+	}
+
+	.icon {
+		vertical-align: text-bottom;
+	}
+
+	.grayed {
+		color: #a2a2a2;
+	}
+}
