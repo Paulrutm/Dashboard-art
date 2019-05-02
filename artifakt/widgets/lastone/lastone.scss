@@ -13,23 +13,16 @@ $moreinfo-color:    #212529;
 .widget-text {
 
   background-color: $background-color;
-
+}
   .title {
     color: $title-color;
   }
 
+.text {
+Color: $text-color;
+}
   .more-info {
     color: $moreinfo-color;
   }
-.text {
-color: $text-color;
-}
-  .updated-at {
-    color: rgba(255, 255, 255, 0.7);
-  }
+                                                    
 
-
-  &.large h3 {
-    font-size: 65px;
-  }
-}
